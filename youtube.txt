@@ -4,3 +4,11 @@ www.youtube.com##*[title="Ви"]:nth-ancestor(3)
 www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(3)
 www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
 
+! YouTube: filter out mixes and radios
+www.youtube.com##ytd-browse #video-title-link[href*="&start_radio=1"]:upward(ytd-rich-item-renderer)
+www.youtube.com##ytd-search ytd-radio-renderer
+www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-radio-renderer
+www.youtube.com##ytd-player div.videowall-endscreen a[data-is-list=true]
+m.youtube.com##ytm-browse ytm-radio-renderer:upward(ytm-rich-item-renderer)
+m.youtube.com##ytm-search ytm-compact-radio-renderer
+youtube.com##ytd-rich-grid-row, #contents.ytd-rich-grid-row:style(display:contents !important;)
