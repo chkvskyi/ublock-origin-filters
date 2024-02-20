@@ -1,2 +1,2 @@
 ! Subscribe popup and its background
-||*.substack.com^##.pc-reset.pc-alignItems-center.pc-flexDirection-column.pc-display-flex.pencraft
+substack.com##.pc-reset.pc-alignItems-center.pc-flexDirection-column.pc-display-flex.pencraft
